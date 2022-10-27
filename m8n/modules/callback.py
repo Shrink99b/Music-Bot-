@@ -23,19 +23,22 @@ Use inline buttons given below to know more about me !!""",
             [
                 [
                     InlineKeyboardButton(
-                        "🏳‍🌈 About", callback_data="cbabout"),
-                    InlineKeyboardButton(
-                        "☁️ Others", callback_data="others")
+                        "Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗂 Commands", callback_data="cbevery")
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbevery")
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Click here to Summon Me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "❄️ ᴀʙᴏᴜᴛ ❄️", callback_data="others"),
+                    InlineKeyboardButton(
+                        "✨ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/Namma_Pasanga_Tamil_Chating")
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"https://t.me/AboutSarathi")
                 ]
-                
            ]
         ),
     )
