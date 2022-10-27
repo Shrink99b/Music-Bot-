@@ -14,11 +14,7 @@ from m8n.config import BOT_NAME
 @Client.on_callback_query(filters.regex("cbhome"))
 async def cbhome(_, query: CallbackQuery):
     await query.edit_message_text(
-        f"""Hello [👋]({START_PIC}) My name is **{BOT_NAME}**
-
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
-
-Use inline buttons given below to know more about me !!""",
+        f"""ʜᴇʏ {query.message.chat.first_name} 🥀\n\n๏ ᴛʜɪs ɪɪs {BOT_NAME} 🫧 !\n➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.\n\n──────────────────\n๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
