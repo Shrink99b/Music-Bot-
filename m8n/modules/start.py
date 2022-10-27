@@ -16,26 +16,26 @@ from m8n.config import BOT_NAME
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{START_PIC}",
-        caption=f"""Hello 👋 My name is **{BOT_NAME}**
-
-I'm most complete voice chat music player for playing high quality and unbreakable music in your groups voice chat with some useful features.
-
-Use inline buttons given below to know more about me !!""",
+        caption=f"""ʜᴇʏ 🥀\n\n๏ ᴛʜɪs ɪɪs {BOT_NAME} 🫧 !\n➻ ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.\n\n──────────────────\n๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʜᴇʟᴩ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴍᴏᴅᴜʟᴇs ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs.""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🏳‍🌈 About", callback_data="cbabout"),
-                    InlineKeyboardButton(
-                        "☁️ Others", callback_data="others")
+                        "Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗂 Commands", callback_data="cbevery")
+                        "ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="cbevery")
                 ],
                 [
                     InlineKeyboardButton(
-                        "✚ Click here to Summon Me", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "❄️ ᴀʙᴏᴜᴛ ❄️", callback_data="others"),
+                    InlineKeyboardButton(
+                        "✨ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT}")
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"https://t.me/{UPDATE}")
                 ]
            ]
         ),
