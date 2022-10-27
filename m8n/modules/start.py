@@ -31,11 +31,11 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton(
                         "❄️ ᴀʙᴏᴜᴛ ❄️", callback_data="others"),
                     InlineKeyboardButton(
-                        "✨ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/{SUPPORT}")
+                        "✨ sᴜᴘᴘᴏʀᴛ ✨", url=f"https://t.me/Namma_Pasanga_Tamil_Chating")
                 ],
                 [
                     InlineKeyboardButton(
-                        "🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"https://t.me/{UPDATE}")
+                        "🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"https://t.me/AboutSarathi")
                 ]
            ]
         ),
